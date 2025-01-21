@@ -1,0 +1,14 @@
+def chatbot():
+    print("Welcome to the chatbot!")
+    name = input("What is your name? ")
+    input("How old are you? ")
+    print(f"Nice to meet you, {name}!")
+
+    while True:
+        print("\nMenu:\n1. Option 1\n2. Option 2\n3. Exit")
+        choice = input("Choose an option: ")
+        if choice == "3":
+            print("Goodbye!")
+            break
+
+chatbot()
